@@ -28,13 +28,51 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
 
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
     <!-- Enlaces a recursos propios -->
     <link href="./CSS/style.css" rel="stylesheet">
 
-    <title></title>
+    <title>Menú vertical responsivo</title>
 
   </head>
   <body>
-    
+    <nav>
+      <div class="mobile">
+        <div class="header">
+          <div class="logo">Logo</div>
+          <div class="more"><button>Més</button></div>
+        </div>
+        <div class="links">
+          <a href="#" target="_blank">Serveis</a>
+          <a href="#" target="_blank">Cerca</a>
+          <a href="#" target="_blank">Inscriure's</a>
+          <a href="#" target="_blank">Login</a>
+          <a href="#" target="_blank">Contacte</a>
+          <a href="#" target="_blank">Sobre nosaltres</a>
+        </div>
+      </div>
+      <div class="desktop">
+        <div class="logo">Logo</div>
+        <div class="primary">
+          <a href="#" target="_blank">Serveis</a>
+          <a href="#" target="_blank">Contacte</a>
+          <a href="#" target="_blank">Sobre nosaltres</a>
+        </div>
+        <div class="secondary full">
+          <a href="#" target="_blank">Cerca</a>
+          <a href="#" target="_blank">Inscriure's</a>
+          <a href="#" target="_blank">Login</a>
+        </div>
+        <div class="secondary mini">
+          <a href="#" class="more">Més</a>
+          <div class="submenu">
+            <a href="#" target="_blank">Cerca</a>
+            <a href="#" target="_blank">Inscriure's</a>
+            <a href="#" target="_blank">Login</a>
+          </div>
+        </div>
+      </div>
+    </nav>
   </body>
 </html>
