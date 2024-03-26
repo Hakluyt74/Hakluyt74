@@ -3,6 +3,9 @@ body {
   padding: 0px;
 }
 
-ol.lista-asesinos {
-  list-style: none;
+h1 {
+  height: 50px;
+  width: 100%;
+  border: 1px black;
+  background-color: aquamarine;
 }
