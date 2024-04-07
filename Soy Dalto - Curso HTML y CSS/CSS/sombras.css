@@ -1,0 +1,46 @@
+body {
+    /* Definir parametres del cos */
+    margin: 0;
+}
+
+.caixa {
+    /* Definir tamany de la caixa */
+    width: 300px;
+    padding: 20px;
+    padding-top: 10px;
+    background: #e2e2e2;
+    box-shadow: 0px 0px 20px 0 #0007;
+    box-sizing: border-box;
+    /* Definir posició de la caixa */
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* Definir propietats pel contingut de la caixa */
+    font-family: sans-serif;
+    text-align: center;
+    color: #444;
+    
+}
+
+.caixa h2 {
+    font-size: 30px;
+    margin-top: 5px;
+    color: #777;
+    letter-spacing: 3px;
+    text-shadow: 0 0 12px #f88;
+}
+.caixa p {
+    list-style: none;
+    font-size: 13px;
+    text-align: justify;
+    line-height: 1.2;
+    text-align: justify;
+    text-shadow: 0 0 12px #f88;
+}
+
+.caixa img {
+    width: 150px;
+    /* border-radius: 100%; */
+    /* box-shadow: 0px 0px 20px 0 #0007; */
+    filter: drop-shadow(0 0 5px #f88);
+}
