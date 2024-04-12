@@ -7,6 +7,9 @@ body {
     background-color: #191919;
     color: #e1e1e1;
 }
+em {
+    color: #f86;
+}
 
 header,footer {
     width: 100%;
