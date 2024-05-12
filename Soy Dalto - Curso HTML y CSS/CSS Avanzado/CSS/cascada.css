@@ -1,0 +1,15 @@
+/*
+CSS lee las reglas de arriba a abajo. Para saltarse este orden se debe seleccionar un elemento a través de una clase (más específico) o de una id (aún más específico).
+*/
+
+#titol {
+    color: brown;
+}
+
+.titol {
+    color: red;
+}
+
+h1 {
+    color: chartreuse !IMPORTANT;
+}

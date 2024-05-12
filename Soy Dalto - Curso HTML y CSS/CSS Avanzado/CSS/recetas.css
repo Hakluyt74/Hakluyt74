@@ -1,7 +1,7 @@
 /*
 Selector por atributo:
 src="nombre_del_archivo" -> Para modificar los elementos que tengan ese atributo concreto.
-src^="clave" -> para modificar los elementos con atributos que empiecen por la clave.
+src^="clave" -> para modificar los elementos con atributos que empiecen en una clave concreta.
 src$="clave" -> para modificar los elementos cuyo atributo termine en una clave concreta.
 */
 
@@ -11,8 +11,7 @@ img[src^="IMAGES/d"] {
 
 /*
 Selector por hijo directo:
-Sirven para dar caracteristicas a elementos dependiendo de su posición en la cascada.
-El modificador > indica que el elemento al que señala es hijo directo del elemento anterior
+Selecciona un elemento que este justo por debajo en la jerarquía de la cascada. El formato es "elemento > elemento > ...".
 */
 
 li {
@@ -23,18 +22,13 @@ ul li {
     color: grey;
 }
 
-/*
-Selector por hijo directo:
-Selecciona un elemento que este justo por debajo en la jerarquía de la cascada. El formato es "elemento > elemento > ...".
-*/
-
 ul > strong {
     color: green;
 }
 
 /*
 Selector adyacente:
-Selecciona un elemento que venga precedido por un elemento concreto. Se pueden poner más de un elemento, pero en el camino no pueden haber otros elementos, por que rompe la cadena. El formato es "elemento + elemento +...".
+Selecciona un elemento que venga precedido por un elemento concreto. Se pueden poner más de un elemento, pero en el camino no pueden haber otros elementos, por que rompe la cadena. El formato es "elemento + elemento + ...".
 */
 
 h1 + p + p {
