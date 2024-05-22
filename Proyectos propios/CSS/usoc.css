@@ -7,12 +7,17 @@ body {
     flex-direction: column;
 }
 
-li.enlace {
+li.enlace, span.enlace {
     text-decoration: none;
     color: #f86;
     font-weight: 600;
     width: 80%;
     margin: 5px auto 0 auto !important;
+}
+
+li.importante {
+    font-size: 22px;
+    font-family: 400;
 }
 
 header {
