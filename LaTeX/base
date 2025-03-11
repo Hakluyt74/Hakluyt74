@@ -1,0 +1,33 @@
+\documentclass[a4paper,11pt]{article}
+
+% Paquets essencials
+\usepackage[utf8]{inputenc}   % Codificació UTF-8
+\usepackage[T1]{fontenc}      % Codificació de fonts
+\usepackage{lmodern}          % Millor tipus de lletra
+\usepackage[margin=2cm]{geometry} % Marges personalitzats
+\usepackage{amsmath, amssymb, amsthm} % Matemàtiques avançades
+\usepackage{xcolor}           % Colors personalitzats
+\usepackage{tcolorbox}        % Quadres per definicions, teoremes, etc.
+
+% Definició d'entorns
+\newtcolorbox{definitionbox}{colback=blue!5!white,colframe=blue!75!black,title=Definició}
+\newtcolorbox{theorembox}{colback=red!5!white,colframe=red!75!black,title=Teorema}
+\newtcolorbox{examplebox}{colback=green!5!white,colframe=green!75!black,title=Exemple}
+
+\begin{document}
+
+\section*{Títol de la fitxa}
+
+\begin{definitionbox}
+Una definició d'exemple per a aquesta fitxa.
+\end{definitionbox}
+
+\begin{theorembox}
+Un teorema important relacionat amb el tema de la fitxa.
+\end{theorembox}
+
+\begin{examplebox}
+Aquí tens un exemple concret que il·lustra el teorema anterior.
+\end{examplebox}
+
+\end{document}
