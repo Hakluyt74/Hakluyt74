@@ -1,0 +1,61 @@
+/*
+    Características generales del encabezado
+*/
+header {
+    /*
+    Selección de tamaño, posición y margenes del encabezado
+    */
+    width: 95%;
+    margin: 5px auto 0 auto;
+    padding: 5px;
+    /*
+    Selección de la dirección de los elementos
+    */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    /*
+    Dirección del texto
+    */
+    text-align: center;
+}
+
+/*
+    Definición del tamaño de las imágenes
+*/
+header img {
+    height: 100px;
+    width: 125px;
+}
+
+/*
+    Posicinamiento de la imagen de la izquierda
+*/
+header img.izquierda {
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+/*
+    Posicinamiento de la imagen de la derecha
+*/
+header img.derecha {
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 1%;
+}
+
+/*
+    Posicionamiento del título principal 
+*/
+header h1 {
+    margin-left: 28%;
+}
+
+/*
+    Posicionamiento de la fecha
+*/
+header h2 {
+    margin-left: 28%;
+}

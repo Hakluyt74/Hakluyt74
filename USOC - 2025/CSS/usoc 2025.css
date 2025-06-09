@@ -1,0 +1,36 @@
+/*
+
+    Hoja de estilo general para los boletines de información de
+    nuestra sección sindical a los trabajadores de Sirsa.
+
+    En esta hoja sólo deben colocarse las opciones de estilo que van
+    a formar parte de todo el boletín.
+
+    De ser necesarias opciones más específicas se deberían hacer
+    en hojas de estilo independientes, para evitar confusiones.
+
+    */
+
+body {
+    /*
+    Selección de diferentes propiedades generales de la página
+    */
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    /*
+    Selección del posicionamiento de los elementos de la página
+    */
+    display: flex;
+    flex-direction: column;
+    /*
+    Dirección del texto
+    */
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+}
+
