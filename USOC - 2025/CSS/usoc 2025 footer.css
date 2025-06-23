@@ -2,3 +2,11 @@ footer {
     width: 95%;
     text-align: center;
 }
+
+.enlace {
+    text-decoration: none;
+    color: #f86;
+    font-weight: 600;
+    /* width: 80%; */
+    margin: 5px auto 0 auto !important;
+}

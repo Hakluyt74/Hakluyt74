@@ -1,0 +1,27 @@
+[gd_scene load_steps=7 format=3 uid="uid://cep282sld1pkh"]
+
+[ext_resource type="Script" uid="uid://ct3qnylhpqpq3" path="res://scenes/prueba/campo_de_prueba.gd" id="1_0cm11"]
+[ext_resource type="Texture2D" uid="uid://c58uhg32lhpcg" path="res://icon.svg" id="1_70he7"]
+[ext_resource type="Script" uid="uid://cvirpbxtat5nk" path="res://scenes/prueba/logo_fijo.gd" id="2_vb70d"]
+[ext_resource type="Script" uid="uid://dfcx4fqo8eje2" path="res://scenes/prueba/logo_movimiento.gd" id="3_famue"]
+[ext_resource type="Script" uid="uid://je4iajp6e8m" path="res://scenes/prueba/logo_rotacion.gd" id="4_5i6fp"]
+[ext_resource type="Script" uid="uid://r4lycp886h4e" path="res://scenes/prueba/logo_movy_rot.gd" id="5_0cm11"]
+
+[node name="CampoDePrueba" type="Node2D"]
+script = ExtResource("1_0cm11")
+
+[node name="LogoFijo" type="Sprite2D" parent="."]
+texture = ExtResource("1_70he7")
+script = ExtResource("2_vb70d")
+
+[node name="LogoRotacion" type="Sprite2D" parent="."]
+texture = ExtResource("1_70he7")
+script = ExtResource("4_5i6fp")
+
+[node name="LogoMovimiento" type="Sprite2D" parent="."]
+texture = ExtResource("1_70he7")
+script = ExtResource("3_famue")
+
+[node name="LogoMovyRot" type="Sprite2D" parent="."]
+texture = ExtResource("1_70he7")
+script = ExtResource("5_0cm11")
